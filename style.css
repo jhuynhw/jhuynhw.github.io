@@ -112,41 +112,56 @@ button {
     color: #F5F5F5;
     background-color: #171819;
     height: 600px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px; /* TEMPORARY */
+    display: flex; /* TEMPORARY */
+    justify-content: center; /* TEMPORARY */
+    align-items: center; /* TEMPORARY */
 }
 
 .home-section-two *{
     color: #171819;
     background-color: #F5F5F5;
     height: 600px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .home-section-three *{
     color: #F5F5F5;
     background-color: #171819;
     height: 600px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px; /* TEMPORARY */
+    display: flex; /* TEMPORARY */
+    justify-content: center; /* TEMPORARY */
+    align-items: center; /* TEMPORARY */
 }
 
-.home-section-four *{
+.home-section-four {
+    display: grid;
     color: #171819;
     background-color: #F5F5F5;
     height: 600px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
 }
+
+#home-section-four-left {
+    margin: auto 0 auto;
+    justify-self: center;
+}
+
+#home-section-four-left-text {
+    font-size: 32px;
+}
+
+#home-section-four-right {
+    margin: auto 0 auto;
+    justify-self: center;
+}
+
+#home-section-four-right-text {
+    font-size: 21px;
+    width: 350px;
+}
+
 
 /* ABOUT --- about.html */
 
