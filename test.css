@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #171819;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+li, a, button {
+    font-size: 18px;
+    color: #171819;
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    padding: 10px 10% 2px;
+}
+
+#nav-name {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.nav-buttons {
+    list-style: none;
+}
+
+.nav-buttons, li {
+    display: inline-block;
+    padding: 0 35px;
+}
+
+.nav-buttons, li, a {
+    background-color: white;
+    transition: all 0.3s ease 0s;
+    position: relative;
+} 
+
+.nav-buttons, li, a:hover {
+    color: gray;
+}
+
+button {
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 32px;
+}
+
+.resume-button {
+    padding: 15px;
+}
+
+.resume-button::after, .resume-button::before {
+    border: 3px solid #000;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+ }
+
+.resume-button:hover::after {
+     transform: translate(-5px, -5px);
+}
+
+.resume-button:hover::before {
+     transform: translate(5px, 5px);
+}
