@@ -147,17 +147,23 @@ button {
 /* ABOUT --- about.html */
 
 #about_title {
-    margin: 4rem 0 3rem 3em;
+    margin: 3.5rem 0 2.5rem 3em;
 }
 
 #about_wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10%;
 }
 
 #about_left {
     justify-self: center;
     /* border: #171819 3px solid; TEMPORARY */
+}
+
+#about_pfp {
+    border-radius: 1rem;
+    width: 470px;
 }
 
 #about_right {
@@ -167,23 +173,23 @@ button {
 #about_name {
     font-size: 28px;
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .about_top_three {
     /* border: #171819 1px solid; */
     background-color: white;
-    width: 550px;
+    width: 525px;
     height: 55px;
     padding: 11px;
     border-radius: .50rem;
-    margin: 10px 0;
+    margin: 15px 0;
     font-weight: 300;
 }
 
-#about_pfp {
-    border-radius: 1rem;
-    width: 470px;
+#about_p {
+    width: 520px;
+    margin-top: 1.5rem;
 }
 
 /* PORTFOLIO  --- portfolio.html */
