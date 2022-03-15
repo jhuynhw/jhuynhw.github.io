@@ -235,6 +235,68 @@ button {
     z-index:2;
 }
 
+/* DESIGN --- design.html */
+
+#design_phil {
+    margin: 3.5rem 0 2.5rem 3em;
+}
+
+.design_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5%;
+}
+
+#design_pic_div_top{
+    justify-self: end;
+    margin-right: 5%;
+}
+
+#design_pic_top {
+    width: 550px;
+}
+
+#design_p1_div {
+    margin: auto 0 auto 5%;
+}
+
+#design_p1 {
+    background-color: white;
+    width: 375px;
+    padding: 25px;
+    border-radius: 1rem;
+    font-size: 19px;
+}
+
+#design_process {
+    margin: 3.5rem 0 2.5rem;
+    margin-right: 17%;
+    text-align: right;
+}
+
+#design_pic_div_bot {
+    justify-self: start;
+    margin-left: 5%;
+}
+
+#design_pic_bot {
+    width: 375px;
+}
+
+#design_p2_div {
+    margin: auto 5% auto auto;
+    justify-items: end;
+    margin-left: auto;
+}
+
+#design_p2 {
+    background-color: white;
+    width: 375px;
+    padding: 25px;
+    border-radius: 1rem;
+    font-size: 19px;
+}
+
 /* FOOTER */
 
 footer *{
