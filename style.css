@@ -43,7 +43,7 @@ header {
     display: flex;
     align-items: center;
     height: 100px;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
     font-size: 25px;
 }
@@ -104,7 +104,7 @@ button {
 
 /* HOME SCREEN SECTIONS --- index.html */
 
-#home_wrapper {
+#home-wrapper {
 
 }
 
@@ -118,11 +118,34 @@ button {
     align-items: center; /* TEMPORARY */
 }
 
-.home-section-two *{
+#home-section-two-title {
+    margin: 2.5% 0 0 3%;
+    font-size: 28px;
+}
+
+.home-section-two {
     color: #171819;
     background-color: #F5F5F5;
-    height: 600px;
+    height: auto;
+}
 
+.home-section-two-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(544px, 1fr));
+    margin: 5% 7.5%;
+}
+
+.home-section-two-project-div{
+    width: 85%;
+    justify-self: center;
+}
+
+.home-section-two-project-div p{
+    width: 70%;
+}
+
+.home-section-two-project-div a {
+    background-color: #F5F5F5;
 }
 
 .home-section-three *{
@@ -165,38 +188,40 @@ button {
 
 /* ABOUT --- about.html */
 
-#about_title {
+#about-title {
     margin: 3.5rem 0 2.5rem 3em;
 }
 
-#about_wrapper {
+#about-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 10%;
 }
 
-#about_left {
+#about-left {
     justify-self: center;
-    /* border: #171819 3px solid; TEMPORARY */
 }
 
-#about_pfp {
+#about-pfp {
     border-radius: 1rem;
     width: 470px;
 }
 
-#about_right {
-    /* border: #171819 3px solid; TEMPORARY */
+#about-right {
 }
 
-#about_name {
+#about-name {
     font-size: 28px;
     font-weight: 300;
     margin-bottom: 1.5rem;
 }
 
-.about_top_three {
-    /* border: #171819 1px solid; */
+#about-name-myname {
+    font-weight: 300;
+    color: #96031A;
+}
+
+.about-top-three {
     background-color: white;
     width: 525px;
     height: 55px;
@@ -206,45 +231,44 @@ button {
     font-weight: 300;
 }
 
-#about_p {
+#about-p {
     width: 520px;
     margin-top: 1.5rem;
 }
 
-#about_p a {
+#about-p a {
     background-color: #F5F5F5;
     color: #96031A;
 }
 
 /* PORTFOLIO  --- portfolio.html */
 
-#portfolio_title {
+#portfolio-title {
     text-align: center;
     margin-top: 5rem;
 }
 
-#project_grid {
+#project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(544px, 1fr));
     grid-gap: 5rem;
     margin: 5% 7.5%;
 }
 
-.project_div {
+.project-div {
     width: 85%;
     justify-self: center;
 }
 
-.project_div a {
+.project-div a {
     background-color: #F5F5F5;
 }
 
-.project_div h2 {
+.project-div h2 {
     margin-bottom: 0.5rem;
 }
 
-.project_thumb {
-    border: #171819 3px solid;
+.project-thumb {
     border-radius: 2em;
     max-width: 100%;
     margin-bottom: 1rem;
@@ -253,7 +277,7 @@ button {
     transition: .35s;
 }
 
-.project_thumb:hover {
+.project-thumb:hover {
     transform:scale(1.05);
     box-shadow: 10px 10px 15px #888888;
     z-index:2;
@@ -261,30 +285,34 @@ button {
 
 /* DESIGN --- design.html */
 
-#design_phil {
+#design-phil {
     margin: 3.5rem 0 2.5rem 3em;
 }
 
-.design_wrapper {
+#design-phil-line, #about-line {
+    color: #FAA916;
+}
+
+.design-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 5%;
 }
 
-#design_pic_div_top{
+#design-pic-div-top{
     justify-self: end;
     margin-right: 5%;
 }
 
-#design_pic_top {
+#design-pic-top {
     width: 550px;
 }
 
-#design_p1_div {
+#design-p1-div {
     margin: auto 0 auto 5%;
 }
 
-#design_p1 {
+#design-p1 {
     background-color: white;
     width: 425px;
     padding: 25px;
@@ -292,28 +320,32 @@ button {
     font-size: 19px;
 }
 
-#design_process {
+#design-process {
     margin: 3.5rem 0 2.5rem;
     margin-right: 17%;
     text-align: right;
 }
 
-#design_pic_div_bot {
+#design-process-line {
+    color: #96031A;
+}
+
+#design-pic-div-bot {
     justify-self: start;
     margin-left: 5%;
 }
 
-#design_pic_bot {
+#design-pic-bot {
     width: 375px;
 }
 
-#design_p2_div {
+#design-p2-div {
     margin: auto 5% auto auto;
     justify-items: end;
     margin-left: auto;
 }
 
-#design_p2 {
+#design-p2 {
     background-color: white;
     width: 425px;
     padding: 25px;
