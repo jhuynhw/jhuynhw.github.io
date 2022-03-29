@@ -108,15 +108,25 @@ button {
 
 }
 
+/* HOME SCREEN SECTION ONE - My Name --- index.html */
+
 .home-section-one *{
     color: #F5F5F5;
-    background-color: #171819;
+    background-color: #666666;
     height: 600px;
+
     padding: 20px; /* TEMPORARY */
     display: flex; /* TEMPORARY */
     justify-content: center; /* TEMPORARY */
     align-items: center; /* TEMPORARY */
+
+    text-align: center;
+    background-image: url(./images/beach_pano.JPG);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
+
+/* HOME SCREEN SECTION TWO - Projects --- index.html */
 
 #home-section-two-title {
     margin: 2.5% 0 0 3%;
@@ -148,15 +158,71 @@ button {
     background-color: #F5F5F5;
 }
 
+/* HOME SCREEN SECTION THREE - 5 Seconds Abt Me --- index.html */
+
 .home-section-three *{
     color: #F5F5F5;
     background-color: #171819;
-    height: 600px;
-    padding: 20px; /* TEMPORARY */
-    display: flex; /* TEMPORARY */
-    justify-content: center; /* TEMPORARY */
-    align-items: center; /* TEMPORARY */
+    padding: 20px;
+    display: grid;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
+
+#home-section-three-div-title {
+
+}
+
+#home-section-three-title-text {
+    font-size: 32px;
+    padding-left: 100px;
+    padding-right: auto;
+}
+
+#home-section-three-div-body {
+    justify-items: center;
+}
+
+#home-section-three-body-text {
+    font-size: 22px;
+    width: 50%;
+}
+
+#home-section-three-div-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding-top: 0;
+    padding-bottom: 3%;
+}
+
+.home-section-three-button-texts {
+    font-size: 27px;
+    /* text-decoration: underline; */
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#home-section-three-button-text-1 {
+    /* text-decoration-color: #96031A; */
+    border-bottom: 4px solid #96031A;
+}
+
+#home-section-three-button-text-2 {
+    /* text-decoration-color: #FAA916; */
+    border-bottom: 4px solid #FAA916;
+}
+
+#home-section-three-button-1 {
+    padding-left: 25%;
+}
+
+#home-section-three-button-2 {
+    padding-right: 25%;
+}
+
+/* HOME SCREEN SECTION FOUR - Feedback --- index.html */
 
 .home-section-four {
     display: grid;
